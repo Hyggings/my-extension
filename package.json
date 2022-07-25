@@ -1,0 +1,21 @@
+{
+    "name": "my-soft-color-extension",
+    "displayName": "my_soft-color-extension",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.69.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "soft-extension",
+                "uiTheme": "vs-dark",
+                "path": "./themes/soft-extension-color-theme.json"
+            }
+        ]
+    }
+}
